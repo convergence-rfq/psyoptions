@@ -1,8 +1,9 @@
 [package]
 name = "psy_american"
-version = "0.2.6"
+version = "0.2.7"
 description = "Created with Anchor"
 edition = "2018"
+license = "Apache-2.0"
 
 [lib]
 crate-type = ["cdylib", "lib"]
@@ -15,8 +16,8 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.24.2"
-anchor-spl = { version = "0.24.2", features = ["dex"] }
+anchor-lang = "0.25.0"
+anchor-spl = { version = "0.25.0", features = ["dex"] }
 solana-program = "1.9.13"
 spl-token = { version = "3.2.0", features = ["no-entrypoint"] }
-psyfi-serum-dex-permissioned = { version = "0.5.6" }
+psyfi-serum-dex-permissioned = { version = "0.5.7" }
